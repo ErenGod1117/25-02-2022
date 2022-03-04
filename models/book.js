@@ -10,5 +10,5 @@ const bookSchema = new mongoose.Schema({
     status: String
 })
 
-const Book = new mongoose.model('book', bookSchema)
-module.exports = Book
+const Book = new mongoose.model("book", bookSchema)
+module.exports = Book;
